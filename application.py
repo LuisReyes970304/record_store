@@ -49,7 +49,7 @@ class PurchaseRecord:
                 self.number_of_product = int(input(f"How many of {self.product_name} do you want to add: "))   
                 self.product_price = float(input("Add the price: "))
                 self.total_per_product = self.number_of_product * self.product_price
-            if continue_adding.lower() == "no":
+            if continue_adding.lower() == "no" or continue_adding.lower() != "yes":
                 active = False
         print(self.calculate_total())
 
