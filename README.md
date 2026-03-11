@@ -7,11 +7,13 @@
 <h2>How it works?</h2>
 
 <h3>The app is composed by two parts</h3>
+
 - The first part, application is created using a class called PurchaseRecord that contains in it the variables and the main function
 
 - The second part is the main file, in it, there is the styled version of the code, with a welcome menssage and the declarated class!
 
 <h3>What is the result</h3>
+
 - The result is a list od dicts with name of product, cuantity, price per unit, total per product of the same class and a total for all of the items added to the purchase.
 
 - A receipt is printed in console showing the information in a very clear way.
