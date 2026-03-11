@@ -12,6 +12,7 @@ class PurchaseRecord:
         #Here I'm going to place a list with all the product_dict
         self.product_list = []
 
+    #This is the function that create the dict with the product data
     def create_product_dict(self):
         return {
             "product_name": self.product_name,
@@ -20,24 +21,27 @@ class PurchaseRecord:
             "total_per_product": self.total_per_product
         }
     
+    #This function append the dict into the list
     def product_added(self):
         self.product_list.append(self.create_product_dict())
         return "Product added to the total"
 
+    #This function calculate the total spent but at the same time print every data of the product
     def calculate_total(self):
         total = 0
         print("\nThe total product added are: ")
         for product_type in range(len(self.product_list)):
             inf = self.product_list[product_type]
-            print("Product name",inf["product_name"])
-            print("Product cuantity",inf["number_of_product"])
-            print("Product price",inf["product_price"])
-            print("Product total",inf["total_per_product"])
+            print("Product name:",inf["product_name"])
+            print("Product cuantity:",inf["number_of_product"])
+            print("Product price:",inf["product_price"])
+            print("Product per total:",inf["total_per_product"])
             print("===============================\n")
         for product in self.product_list:
             total += (product["total_per_product"])
         return f"\nFor a total amount of: {total} \n"
 
+    #This is the main function that place all of the function together
     def main_function(self):
         active = True
         while active:
