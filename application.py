@@ -30,7 +30,12 @@ class PurchaseRecord:
             total += (product["total_per_product"])
         print("\nThe total product added are: ")
         for product_type in range(len(self.product_list)):
-            print(self.product_list[product_type])
+            inf = self.product_list[product_type]
+            print("Product name",inf["product_name"])
+            print("Product cuantity",inf["number_of_product"])
+            print("Product price",inf["product_price"])
+            print("Product total",inf["total_per_product"])
+            print("===============================")
         return f"\nFor a total amount of: {total}"
 
     def main_function(self):
