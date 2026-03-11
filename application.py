@@ -35,7 +35,7 @@ class PurchaseRecord:
             print("Product name:",inf["product_name"])
             print("Product cuantity:",inf["number_of_product"])
             print("Product price:",inf["product_price"])
-            print("Product per total:",inf["total_per_product"])
+            print("Total per product:",inf["total_per_product"])
             print("===============================\n")
         for product in self.product_list:
             total += (product["total_per_product"])
