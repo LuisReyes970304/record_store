@@ -11,3 +11,6 @@ print(welcome_message, "\n")
 
 app = PurchaseRecord()
 app.main_function()
+
+print("                         Thanks for using PurchaseRecord!     \n")
+print("                                   Have a nice day     ")
