@@ -8,15 +8,15 @@
 
 <h3>The app is composed by two parts</h3>
 
-- The first part is the **application.py** is a class called PurchaseRecord that contains the variables and the **main_function*
+- The first part is the **application.py** is a class called PurchaseRecord that contains the variables and the *main_function*
 
-- The second part is the main file, in it, there is the styled version of the code, with a welcome menssage and the declarated class!
+- The second part is the **main.py** file, in it there is the styled version of the code, with a welcome menssage and the declarated class!
 
 <h3>What is the result</h3>
 
-- The result is a list od dicts with name of product, cuantity, price per unit, total per product of the same class and a total for all of the items added to the purchase.
+- The result is a list of dicts with name of product, cuantity, price per unit, total per kind of product, and a total for all of the items added to the purchase.
 
 - A receipt is printed in console showing the information in a very clear way.
 
-<h3>Bellow the flowchart</h3>
+                                                                <h3>Bellow the flowchart</h3>
 <img width="567" height="725" alt="Captura desde 2026-03-11 07-10-09" src="https://github.com/user-attachments/assets/a3cb2c3b-7462-4563-ae99-9231778d93a7" />
