@@ -28,7 +28,7 @@ class PurchaseRecord:
         total = 0
         for product in self.product_list:
             total += (product["total_per_product"])
-        print("The total product added are: ")
+        print("\nThe total product added are: ")
         for product_type in range(len(self.product_list)):
             print(self.product_list[product_type])
         return f"\nFor a total amount of: {total}"
@@ -39,6 +39,7 @@ class PurchaseRecord:
             self.product_added()
             continue_adding = input("Do you want to add another product? (yes/no): ")
             if continue_adding.lower() == "yes":
+                print("\n")
                 self.product_name = input("Enter the product's name: ")
                 self.number_of_product = int(input(f"How many of {self.product_name} do you want to add: "))   
                 self.product_price = float(input("Enter the price: "))
