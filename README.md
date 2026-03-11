@@ -8,7 +8,7 @@
 
 <h3>The app is composed by two parts</h3>
 
-- The first part, application is created using a class called PurchaseRecord that contains in it the variables and the main function
+- The first part is the **application.py** is a class called PurchaseRecord that contains the variables and the **main_function*
 
 - The second part is the main file, in it, there is the styled version of the code, with a welcome menssage and the declarated class!
 
