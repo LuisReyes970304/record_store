@@ -18,5 +18,5 @@
 
 - A receipt is printed in console showing the information in a very clear way.
 
-                                                                <h3>Bellow the flowchart</h3>
+<h3>                                                                  Bellow the flowchart</h3>
 <img width="567" height="725" alt="Captura desde 2026-03-11 07-10-09" src="https://github.com/user-attachments/assets/a3cb2c3b-7462-4563-ae99-9231778d93a7" />
