@@ -29,13 +29,13 @@ class PurchaseRecord:
     #This function calculate the total spent but at the same time print every data of the product
     def calculate_total(self):
         total = 0
-        print("\nThe total product added are: ")
+        print("\nThe total product added are: \n")
         for product_type in range(len(self.product_list)):
             inf = self.product_list[product_type]
-            print("Product name:",inf["product_name"])
-            print("Product cuantity:",inf["number_of_product"])
-            print("Product price:",inf["product_price"])
-            print("Total per product:",inf["total_per_product"])
+            print(" Product name:",inf["product_name"])
+            print(" Product cuantity:",inf["number_of_product"])
+            print(" Product price:",inf["product_price"])
+            print(" Total per product:",inf["total_per_product"])
             print("===============================\n")
         for product in self.product_list:
             total += (product["total_per_product"])
@@ -48,7 +48,7 @@ class PurchaseRecord:
             self.product_added()
             continue_adding = input("Do you want to add another product? (yes/no): ")
             if continue_adding.lower() == "yes":
-                print("\n")
+                print("")
                 self.product_name = input("Add the product's name: ")
                 self.number_of_product = int(input(f"How many of {self.product_name} do you want to add: "))   
                 self.product_price = float(input("Add the price: "))
