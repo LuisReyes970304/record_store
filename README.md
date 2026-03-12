@@ -2,10 +2,12 @@
 
 <h1>This is a simple app that works in console</h1>
 <h2>What it that?</h2>
+
 - The app allow the user to create record for all of the purchase of a single customer, allowing make a receipt at the moment the customer doesn't want to add more products. 
 
 <h2>What is the language managed?</h2>
-- The complete code is written in Python
+
+![Python](https://skillicons.dev/icons?i=python)  The complete code is written in Python   
 
 <h3>The app is composed by two parts</h3>
 
