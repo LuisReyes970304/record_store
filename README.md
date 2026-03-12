@@ -3,7 +3,7 @@
 <h1>This is a simple app that works in console</h1>
 <h2>What it that?</h2>
 
-- The app allow the user to create record for all of the purchase of a single customer, allowing make a receipt at the moment the customer doesn't want to add more products. 
+- The app allows the user to create record for all of the purchases of a single customer, allowing to make a receipt at the moment the customer doesn't want to add more products. 
 
 <h2>What is the language managed?</h2>
 
