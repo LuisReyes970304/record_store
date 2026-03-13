@@ -17,7 +17,7 @@
 
 <h3>What is the result</h3>
 
-- The result is a list of dicts with name of product, cuantity, price per unit, total per kind of product, and a total for all of the items added to the purchase.
+- The result is a list of dicts with name of product, quantity, price per unit, total per kind of product, and a total for all of the items added to the purchase.
 
 - A receipt is printed in console showing the information in a very clear way.
 
