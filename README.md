@@ -3,7 +3,9 @@
 <h1>This is a simple app that works in console</h1>
 <h2>What it that?</h2>
 
-- The app allows the user to create record for all of the purchases of a single customer, allowing to make a receipt at the moment the customer doesn't want to add more products. 
+A simple console-based Python application that allows a user to record purchases and generate a receipt.
+The program lets a user add multiple products to a purchase and automatically calculates the total cost.
+---
 
 <h2>What is the language managed?</h2>
 
