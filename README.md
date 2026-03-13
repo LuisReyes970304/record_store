@@ -4,6 +4,7 @@
 <h2>What does this application do?</h2>
 A simple console-based Python application that allows a user to record purchases and generate a receipt.
 The program lets a user add multiple products to a purchase and automatically calculates the total cost.
+
 ---
 
 The user can:
