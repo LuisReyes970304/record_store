@@ -23,7 +23,7 @@ The program stores the purchase information in a **list of dictionaries**, makin
 
 ![Python](https://skillicons.dev/icons?i=python)  The complete code is written in Python   
 
-<h2>Proyect Structure</h2>
+<h2>Project Structure</h2>
 
 <h3>application.py</h3>
 
